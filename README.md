@@ -18,6 +18,10 @@ npm run build     # régénère le dessin SVG puis construit dist/
 npm run preview   # sert dist/
 ```
 
+## Mise en ligne (GitHub Pages)
+Le workflow `.github/workflows/pages.yml` construit le site et publie `dist/` à chaque push sur `main`.
+Réglage requis une fois : Settings → Pages → Source : **GitHub Actions**.
+
 ## Structure
 - `index.html` : page unique (SEO, JSON-LD LocalBusiness + Product + FAQPage)
 - `src/main.js` : animations (desktop, mobile allégé, prefers-reduced-motion)

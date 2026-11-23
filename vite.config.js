@@ -20,6 +20,7 @@ function frTypo(html) {
 }
 
 export default defineConfig({
+  base: './',   /* chemins relatifs : fonctionne à la racine comme sous /Bike/ (GitHub Pages) */
   plugins: [{
     name: 'partials-and-typo',
     transformIndexHtml: {
