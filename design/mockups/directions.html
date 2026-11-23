@@ -1,0 +1,214 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Directions</title><style>
+@font-face{font-family:Archivo;src:url(fonts/Archivo.woff2) format("woff2");font-weight:100 900;font-stretch:62% 125%}
+@font-face{font-family:Instrument;src:url(fonts/Instrument_Sans.woff2) format("woff2");font-weight:400 700;font-stretch:75% 100%}
+@font-face{font-family:SofiaXC;src:url(fonts/Sofia_Sans_Extra_Condensed.woff2) format("woff2");font-weight:1 1000}
+@font-face{font-family:SofiaSC;src:url(fonts/Sofia_Sans_Semi_Condensed.woff2) format("woff2");font-weight:1 1000}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-variant-numeric:tabular-nums}
+.hero{position:relative;width:1440px;height:900px;overflow:hidden;background:var(--bg);color:var(--ink)}
+.bike{color:var(--ink)}
+.ln{fill:none;stroke:currentColor;stroke-width:2.2}
+.ln.w2{stroke-width:3.4}.ln.thin{stroke-width:1.4}.ln.hair{stroke-width:.9;opacity:.8}
+.ln.hidden{stroke-dasharray:8 7;stroke-width:1.6}
+.ln.fill{fill:var(--bg)}.ln.crank{stroke-width:20;stroke-linecap:round}
+.ln.bar{stroke-width:22;stroke-linecap:round}
+.tube-o{stroke:currentColor;stroke-linecap:butt;fill:none}
+.tube-i{stroke:var(--bg);stroke-linecap:butt;fill:none}
+.dim line,.dim path{stroke:var(--dim);stroke-width:1.6;fill:none}
+.dim text{fill:var(--dim);font:600 26px/1 var(--txt);font-stretch:82%;letter-spacing:.06em}
+
+/* ---------- A ---------- */
+.A{--bg:#FF5A1F;--ink:#121212;--dim:#121212;--disp:Archivo;--txt:Instrument;font-family:Instrument,sans-serif;font-stretch:82%}
+.A .sheet{position:absolute;inset:20px;border:1.5px solid var(--ink)}
+.A .sheet i{position:absolute;width:14px;height:14px;border-color:var(--ink);border-style:solid}
+.A nav{position:absolute;top:20px;left:20px;right:20px;height:56px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 24px;border-bottom:1.5px solid var(--ink);font-size:15px;font-weight:500}
+.A nav .wm{font:800 22px/1 Archivo;font-stretch:62%;text-transform:uppercase;letter-spacing:.02em}
+.A nav ul{display:flex;gap:28px;list-style:none}
+.A nav .cta{justify-self:end;font-weight:600}
+.A h1{position:absolute;left:64px;right:64px;top:108px;display:flex;justify-content:space-between;align-items:flex-end}
+.A h1 .name{display:block;font:900 112px/.86 Archivo;font-stretch:62%;text-transform:uppercase;letter-spacing:-.01em}
+.A h1 .line{display:block;font:500 26px/1.25 Instrument;font-stretch:82%;max-width:420px}
+.A .bike{position:absolute;left:320px;top:232px;width:800px}
+.A .cart{position:absolute;right:20px;bottom:20px;display:grid;grid-template-columns:repeat(4,auto);border-top:1.5px solid var(--ink);border-left:1.5px solid var(--ink);font-size:13px}
+.A .cart div{padding:10px 18px;border-right:1.5px solid var(--ink)}
+.A .cart div:last-child{border-right:0}
+.A .cart b{display:block;font:800 20px/1.1 Archivo;font-stretch:62%;text-transform:uppercase;margin-top:4px}
+.A .btn{position:absolute;left:64px;bottom:64px;background:var(--ink);color:var(--bg);padding:20px 28px;font:600 17px/1 Instrument;font-stretch:82%;display:flex;gap:40px}
+.A .btn span:last-child{font-variant-numeric:tabular-nums}
+
+/* ---------- B ---------- */
+.B{--bg:#0F4A35;--ink:#ECEFEA;--dim:#F2D20A;--y:#F2D20A;--txt:SofiaSC;font-family:SofiaSC,sans-serif}
+.B nav{position:absolute;top:0;left:0;right:0;height:84px;display:flex;align-items:center;justify-content:space-between;padding:0 48px;font-size:17px;font-weight:500}
+.B nav ul{display:flex;gap:32px;list-style:none}
+.B nav .wm{font:800 24px/1 SofiaXC;text-transform:uppercase;letter-spacing:.04em}
+.B nav .cta{background:var(--y);color:#0D1117;padding:14px 20px;font-weight:700}
+.B .lede{position:absolute;left:48px;top:150px;width:360px;font:500 24px/1.3 SofiaSC}
+.B .lede small{display:block;font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--y);margin-bottom:14px;font-weight:700}
+.B .meta{position:absolute;right:48px;top:150px;text-align:right;font:500 15px/1.6 SofiaSC;opacity:.85}
+.B .bike{position:absolute;left:300px;top:96px;width:840px}
+.B h1 .name{position:absolute;left:0;right:0;bottom:-14px;text-align:center;font:850 262px/.8 SofiaXC;text-transform:uppercase;color:var(--y);letter-spacing:-.005em;white-space:nowrap}
+.B h1 .line{position:absolute;left:-9999px}
+
+/* ---------- planche palette ---------- */
+.board{width:1440px;padding:56px 64px 64px;background:#fff;color:#121212;font-family:Instrument,sans-serif;font-stretch:85%}
+.board h2{font:900 44px/1 Archivo;font-stretch:62%;text-transform:uppercase;margin-bottom:8px}
+.board p.sub{font-size:17px;max-width:900px;margin-bottom:32px;line-height:1.45}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+.sw{height:150px;padding:14px;display:flex;flex-direction:column;justify-content:space-between;font-size:14px;font-weight:600}
+.spec{grid-column:span 6;border:1.5px solid #121212;padding:22px;min-height:230px}
+.spec .k{font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;margin-bottom:12px}
+.seq{grid-column:span 12;display:flex;height:64px;margin-top:4px}
+.seq div{flex:1;display:flex;align-items:end;padding:8px 10px;font-size:12px;font-weight:600}
+.refs{grid-column:span 12;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:4px}
+.refs div{border-top:1.5px solid #121212;padding-top:10px;font-size:15px;line-height:1.4}
+.refs b{display:block;font-size:16px;margin-bottom:4px}
+</style></head><body><section class="hero A" id="heroA">
+<div class="sheet"></div>
+<nav><span class="wm">Garnier Cycles</span><ul><li>Atelier</li><li>Procédé</li><li>Modèles</li><li>Tarifs</li><li>FAQ</li></ul><span class="cta">[ Réserver l’étude posturale ]</span></nav>
+<h1><span class="name">Garnier Cycles</span><span class="line">Vélos sur mesure en acier et titane, construits pour un seul cycliste. Annecy, depuis 2015.</span></h1>
+<svg class="bike" viewBox="-380 -760 1740 1220" role="img" aria-label="Dessin technique d'un vélo de route sur mesure, vue de profil">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0 2 L10 5 L0 8" fill="none" stroke="currentColor" stroke-width="1.5"/></marker></defs>
+<g id="roue-ar"><circle cx="0" cy="0" r="334" class="ln w2"/>
+<circle cx="0" cy="0" r="314" class="ln"/>
+<circle cx="0" cy="0" r="300" class="ln"/>
+<circle cx="0" cy="0" r="282" class="ln thin"/>
+<circle cx="0" cy="0" r="24" class="ln"/>
+<circle cx="0" cy="0" r="8" class="ln"/>
+<line x1="19.8" y1="-3.1" x2="282.0" y2="0.0" class="ln hair"/>
+<line x1="18.3" y1="8.1" x2="272.4" y2="73.0" class="ln hair"/>
+<line x1="18.7" y1="7.2" x2="244.2" y2="141.0" class="ln hair"/>
+<line x1="11.8" y1="16.2" x2="199.4" y2="199.4" class="ln hair"/>
+<line x1="12.6" y1="15.5" x2="141.0" y2="244.2" class="ln hair"/>
+<line x1="2.1" y1="19.9" x2="73.0" y2="272.4" class="ln hair"/>
+<line x1="3.1" y1="19.8" x2="0.0" y2="282.0" class="ln hair"/>
+<line x1="-8.1" y1="18.3" x2="-73.0" y2="272.4" class="ln hair"/>
+<line x1="-7.2" y1="18.7" x2="-141.0" y2="244.2" class="ln hair"/>
+<line x1="-16.2" y1="11.8" x2="-199.4" y2="199.4" class="ln hair"/>
+<line x1="-15.5" y1="12.6" x2="-244.2" y2="141.0" class="ln hair"/>
+<line x1="-19.9" y1="2.1" x2="-272.4" y2="73.0" class="ln hair"/>
+<line x1="-19.8" y1="3.1" x2="-282.0" y2="0.0" class="ln hair"/>
+<line x1="-18.3" y1="-8.1" x2="-272.4" y2="-73.0" class="ln hair"/>
+<line x1="-18.7" y1="-7.2" x2="-244.2" y2="-141.0" class="ln hair"/>
+<line x1="-11.8" y1="-16.2" x2="-199.4" y2="-199.4" class="ln hair"/>
+<line x1="-12.6" y1="-15.5" x2="-141.0" y2="-244.2" class="ln hair"/>
+<line x1="-2.1" y1="-19.9" x2="-73.0" y2="-272.4" class="ln hair"/>
+<line x1="-3.1" y1="-19.8" x2="-0.0" y2="-282.0" class="ln hair"/>
+<line x1="8.1" y1="-18.3" x2="73.0" y2="-272.4" class="ln hair"/>
+<line x1="7.2" y1="-18.7" x2="141.0" y2="-244.2" class="ln hair"/>
+<line x1="16.2" y1="-11.8" x2="199.4" y2="-199.4" class="ln hair"/>
+<line x1="15.5" y1="-12.6" x2="244.2" y2="-141.0" class="ln hair"/>
+<line x1="19.9" y1="-2.1" x2="272.4" y2="-73.0" class="ln hair"/></g>
+<g id="roue-av"><circle cx="984" cy="0" r="334" class="ln w2"/>
+<circle cx="984" cy="0" r="314" class="ln"/>
+<circle cx="984" cy="0" r="300" class="ln"/>
+<circle cx="984" cy="0" r="282" class="ln thin"/>
+<circle cx="984" cy="0" r="24" class="ln"/>
+<circle cx="984" cy="0" r="8" class="ln"/>
+<line x1="1003.8" y1="-3.1" x2="1266.0" y2="0.0" class="ln hair"/>
+<line x1="1002.3" y1="8.1" x2="1256.4" y2="73.0" class="ln hair"/>
+<line x1="1002.7" y1="7.2" x2="1228.2" y2="141.0" class="ln hair"/>
+<line x1="995.8" y1="16.2" x2="1183.4" y2="199.4" class="ln hair"/>
+<line x1="996.6" y1="15.5" x2="1125.0" y2="244.2" class="ln hair"/>
+<line x1="986.1" y1="19.9" x2="1057.0" y2="272.4" class="ln hair"/>
+<line x1="987.1" y1="19.8" x2="984.0" y2="282.0" class="ln hair"/>
+<line x1="975.9" y1="18.3" x2="911.0" y2="272.4" class="ln hair"/>
+<line x1="976.8" y1="18.7" x2="843.0" y2="244.2" class="ln hair"/>
+<line x1="967.8" y1="11.8" x2="784.6" y2="199.4" class="ln hair"/>
+<line x1="968.5" y1="12.6" x2="739.8" y2="141.0" class="ln hair"/>
+<line x1="964.1" y1="2.1" x2="711.6" y2="73.0" class="ln hair"/>
+<line x1="964.2" y1="3.1" x2="702.0" y2="0.0" class="ln hair"/>
+<line x1="965.7" y1="-8.1" x2="711.6" y2="-73.0" class="ln hair"/>
+<line x1="965.3" y1="-7.2" x2="739.8" y2="-141.0" class="ln hair"/>
+<line x1="972.2" y1="-16.2" x2="784.6" y2="-199.4" class="ln hair"/>
+<line x1="971.4" y1="-15.5" x2="843.0" y2="-244.2" class="ln hair"/>
+<line x1="981.9" y1="-19.9" x2="911.0" y2="-272.4" class="ln hair"/>
+<line x1="980.9" y1="-19.8" x2="984.0" y2="-282.0" class="ln hair"/>
+<line x1="992.1" y1="-18.3" x2="1057.0" y2="-272.4" class="ln hair"/>
+<line x1="991.2" y1="-18.7" x2="1125.0" y2="-244.2" class="ln hair"/>
+<line x1="1000.2" y1="-11.8" x2="1183.4" y2="-199.4" class="ln hair"/>
+<line x1="999.5" y1="-12.6" x2="1228.2" y2="-141.0" class="ln hair"/>
+<line x1="1003.9" y1="-2.1" x2="1256.4" y2="-73.0" class="ln hair"/><circle cx="984" cy="0" r="80" class="ln hidden"/></g>
+<g id="groupe"><circle cx="403" cy="72" r="104" class="ln w2"/><circle cx="403" cy="72" r="94" class="ln thin"/><circle cx="403" cy="72" r="40" class="ln"/><circle cx="0" cy="0" r="58" class="ln"/><circle cx="0" cy="0" r="46" class="ln thin"/><circle cx="0" cy="0" r="36" class="ln thin"/><line x1="403" y1="-32" x2="0" y2="-58" class="ln"/><line x1="403" y1="176" x2="34" y2="166" class="ln"/><path d="M14 40 L40 160" class="ln w2"/><circle cx="18" cy="70" r="15" class="ln"/><circle cx="34" cy="150" r="15" class="ln"/><path d="M403 72 L461 234" class="ln crank"/><rect x="433" y="228" width="60" height="16" rx="3" class="ln fill"/></g>
+<g id="cadre"><line x1="403" y1="72" x2="0" y2="0" class="tube-o" stroke-width="21"/><line x1="403" y1="72" x2="0" y2="0" class="tube-i" stroke-width="15"/><line x1="262" y1="-400" x2="0" y2="0" class="tube-o" stroke-width="19"/><line x1="262" y1="-400" x2="0" y2="0" class="tube-i" stroke-width="13"/><line x1="826" y1="-362" x2="403" y2="72" class="tube-o" stroke-width="45"/><line x1="826" y1="-362" x2="403" y2="72" class="tube-i" stroke-width="39"/><line x1="790" y1="-468" x2="258" y2="-412" class="tube-o" stroke-width="35"/><line x1="790" y1="-468" x2="258" y2="-412" class="tube-i" stroke-width="29"/><line x1="403" y1="72" x2="255" y2="-427" class="tube-o" stroke-width="35"/><line x1="403" y1="72" x2="255" y2="-427" class="tube-i" stroke-width="29"/><line x1="788" y1="-488" x2="832" y2="-345" class="tube-o" stroke-width="49"/><line x1="788" y1="-488" x2="832" y2="-345" class="tube-i" stroke-width="43"/><circle cx="403" cy="72" r="30" class="ln fill"/><circle cx="0" cy="0" r="12" class="ln fill"/></g>
+<g id="fourche"><path d="M832 -345 L852 -282" class="tube-o" stroke-width="42"/><path d="M832 -345 L852 -282" class="tube-i" stroke-width="36"/><path d="M852 -282 C 885 -170 920 -70 984 0" class="tube-o" stroke-width="24" fill="none"/><path d="M852 -282 C 885 -170 920 -70 984 0" class="tube-i" stroke-width="18" fill="none"/></g>
+<g id="cockpit"><line x1="788" y1="-488" x2="776" y2="-530" class="tube-o" stroke-width="35"/><line x1="788" y1="-488" x2="776" y2="-530" class="tube-i" stroke-width="29"/><path d="M770 -528 L884 -548" class="tube-o" stroke-width="30"/><path d="M770 -528 L884 -548" class="tube-i" stroke-width="24"/><path d="M884 -548 L944 -552 C1012 -556 1018 -470 990 -432 C968 -402 934 -404 910 -410" class="ln bar"/><path d="M930 -552 C940 -598 984 -600 994 -566 L986 -530" class="ln w2 fill"/></g>
+<g id="selle"><line x1="255" y1="-427" x2="199" y2="-618" class="tube-o" stroke-width="27"/><line x1="255" y1="-427" x2="199" y2="-618" class="tube-i" stroke-width="21"/><path d="M110 -634 L300 -628 C312 -616 296 -604 270 -604 L160 -606 C130 -608 112 -618 110 -634Z" class="ln w2 fill"/></g>
+<g class="dim"><line x1="0" y1="360" x2="0" y2="430"/><line x1="984" y1="360" x2="984" y2="430"/><line x1="0" y1="410" x2="984" y2="410" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="492" y="398" text-anchor="middle">EMPATTEMENT 1 002</text><path d="M760 -620 L788 -488" stroke-dasharray="6 6"/><text x="700" y="-640">73,0°</text><path d="M403 72 L170 -720" stroke-dasharray="6 6"/><text x="48" y="-700">73,5°</text></g>
+</svg>
+<a class="btn"><span>Réserver l’étude posturale</span><span>180 €</span></a>
+<div class="cart"><div>Planche<b>00 / 11</b></div><div>Vue<b>Élévation côté transmission</b></div><div>Échelle<b>1:10</b></div><div>Dessiné pour<b>Un seul cycliste</b></div></div>
+</section><section class="board"><h2>Direction A — Planche d’atelier</h2><p class="sub">Le site est un jeu de planches techniques numérotées (00 à 11). Cadre de feuille, cartouche, cotes, étiquettes entre crochets. Orange signal en ouverture, puis noir et vert usine en alternance. Le vélo est dessiné au trait noir comme sur un plan.</p><div class="grid"><div class="sw" style="grid-column:span 4;background:#FF5A1F;color:#121212"><span>Orange signal — hero, CTA</span><span>#FF5A1F</span></div><div class="sw" style="grid-column:span 3;background:#121212;color:#F4F5F2"><span>Noir carbone</span><span>#121212</span></div><div class="sw" style="grid-column:span 3;background:#1E5B45;color:#F4F5F2"><span>Vert usine</span><span>#1E5B45</span></div><div class="sw" style="grid-column:span 2;background:#F4F5F2;color:#121212"><span>Blanc froid — texte sur sombre</span><span>#F4F5F2</span></div><div class="spec"><div class="k">Titres — Archivo ExtraCondensed 900 (wdth 62)</div><div style="font:900 96px/.9 Archivo;font-stretch:62%;text-transform:uppercase">Cadre titane<br>3Al-2,5V</div></div><div class="spec"><div class="k">Texte & cotes — Instrument Sans Condensed (wdth 82)</div><div style="font:500 20px/1.45 Instrument;font-stretch:82%;max-width:520px">Tubes Columbus et Reynolds choisis selon votre poids et votre pratique. Chiffres tabulaires pour les cotes :</div><div style="font:600 44px/1.1 Instrument;font-stretch:82%;margin-top:14px;font-variant-numeric:tabular-nums">73,5° · 1 002 mm · 1 640 g</div></div><div class="seq"><div style="background:#FF5A1F;color:#121212">00 Hero</div><div style="background:#121212;color:#F4F5F2">01 Vue éclatée</div><div style="background:#1E5B45;color:#F4F5F2">02 Atelier</div><div style="background:#FF5A1F;color:#121212">03 Procédé</div><div style="background:#121212;color:#F4F5F2">04 Acier/Titane</div><div style="background:#1E5B45;color:#F4F5F2">05 Modèles</div><div style="background:#121212;color:#F4F5F2">06 Options</div><div style="background:#FF5A1F;color:#121212">07 Fiche client</div><div style="background:#1E5B45;color:#F4F5F2">08 Avis</div><div style="background:#121212;color:#F4F5F2">09 Étude</div><div style="background:#FF5A1F;color:#121212">10 FAQ</div></div><div class="refs"><div><b>hardwareoperations.com</b>La pièce mécanique isolée comme un objet de galerie : masse contre vide, aucun décor.</div><div><b>eduardbodak.com</b>Titre ultra-condensé en capitales, repères de coin type coordonnées, grille bento calme.</div><div><b>turnoev.com</b>Libellés entre crochets [ ], orange industriel brûlé sur noir, vue fil de fer.</div></div></div></section><section class="hero B" id="heroB">
+<nav><span class="wm">Garnier Cycles</span><ul><li>Atelier</li><li>Procédé</li><li>Modèles</li><li>Tarifs</li><li>FAQ</li></ul><span class="cta">Étude posturale · 180 €</span></nav>
+<p class="lede"><small>Artisan cadreur · Annecy</small>Un vélo sur mesure, construit pour un seul cycliste. Acier ou titane, soudé à la main.</p>
+<p class="meta">40 cadres par an<br>Nom du propriétaire gravé<br>sous le boîtier de pédalier</p>
+<svg class="bike" viewBox="-380 -760 1740 1220" role="img" aria-label="Dessin technique d'un vélo de route sur mesure, vue de profil">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse"><path d="M0 2 L10 5 L0 8" fill="none" stroke="currentColor" stroke-width="1.5"/></marker></defs>
+<g id="roue-ar"><circle cx="0" cy="0" r="334" class="ln w2"/>
+<circle cx="0" cy="0" r="314" class="ln"/>
+<circle cx="0" cy="0" r="300" class="ln"/>
+<circle cx="0" cy="0" r="282" class="ln thin"/>
+<circle cx="0" cy="0" r="24" class="ln"/>
+<circle cx="0" cy="0" r="8" class="ln"/>
+<line x1="19.8" y1="-3.1" x2="282.0" y2="0.0" class="ln hair"/>
+<line x1="18.3" y1="8.1" x2="272.4" y2="73.0" class="ln hair"/>
+<line x1="18.7" y1="7.2" x2="244.2" y2="141.0" class="ln hair"/>
+<line x1="11.8" y1="16.2" x2="199.4" y2="199.4" class="ln hair"/>
+<line x1="12.6" y1="15.5" x2="141.0" y2="244.2" class="ln hair"/>
+<line x1="2.1" y1="19.9" x2="73.0" y2="272.4" class="ln hair"/>
+<line x1="3.1" y1="19.8" x2="0.0" y2="282.0" class="ln hair"/>
+<line x1="-8.1" y1="18.3" x2="-73.0" y2="272.4" class="ln hair"/>
+<line x1="-7.2" y1="18.7" x2="-141.0" y2="244.2" class="ln hair"/>
+<line x1="-16.2" y1="11.8" x2="-199.4" y2="199.4" class="ln hair"/>
+<line x1="-15.5" y1="12.6" x2="-244.2" y2="141.0" class="ln hair"/>
+<line x1="-19.9" y1="2.1" x2="-272.4" y2="73.0" class="ln hair"/>
+<line x1="-19.8" y1="3.1" x2="-282.0" y2="0.0" class="ln hair"/>
+<line x1="-18.3" y1="-8.1" x2="-272.4" y2="-73.0" class="ln hair"/>
+<line x1="-18.7" y1="-7.2" x2="-244.2" y2="-141.0" class="ln hair"/>
+<line x1="-11.8" y1="-16.2" x2="-199.4" y2="-199.4" class="ln hair"/>
+<line x1="-12.6" y1="-15.5" x2="-141.0" y2="-244.2" class="ln hair"/>
+<line x1="-2.1" y1="-19.9" x2="-73.0" y2="-272.4" class="ln hair"/>
+<line x1="-3.1" y1="-19.8" x2="-0.0" y2="-282.0" class="ln hair"/>
+<line x1="8.1" y1="-18.3" x2="73.0" y2="-272.4" class="ln hair"/>
+<line x1="7.2" y1="-18.7" x2="141.0" y2="-244.2" class="ln hair"/>
+<line x1="16.2" y1="-11.8" x2="199.4" y2="-199.4" class="ln hair"/>
+<line x1="15.5" y1="-12.6" x2="244.2" y2="-141.0" class="ln hair"/>
+<line x1="19.9" y1="-2.1" x2="272.4" y2="-73.0" class="ln hair"/></g>
+<g id="roue-av"><circle cx="984" cy="0" r="334" class="ln w2"/>
+<circle cx="984" cy="0" r="314" class="ln"/>
+<circle cx="984" cy="0" r="300" class="ln"/>
+<circle cx="984" cy="0" r="282" class="ln thin"/>
+<circle cx="984" cy="0" r="24" class="ln"/>
+<circle cx="984" cy="0" r="8" class="ln"/>
+<line x1="1003.8" y1="-3.1" x2="1266.0" y2="0.0" class="ln hair"/>
+<line x1="1002.3" y1="8.1" x2="1256.4" y2="73.0" class="ln hair"/>
+<line x1="1002.7" y1="7.2" x2="1228.2" y2="141.0" class="ln hair"/>
+<line x1="995.8" y1="16.2" x2="1183.4" y2="199.4" class="ln hair"/>
+<line x1="996.6" y1="15.5" x2="1125.0" y2="244.2" class="ln hair"/>
+<line x1="986.1" y1="19.9" x2="1057.0" y2="272.4" class="ln hair"/>
+<line x1="987.1" y1="19.8" x2="984.0" y2="282.0" class="ln hair"/>
+<line x1="975.9" y1="18.3" x2="911.0" y2="272.4" class="ln hair"/>
+<line x1="976.8" y1="18.7" x2="843.0" y2="244.2" class="ln hair"/>
+<line x1="967.8" y1="11.8" x2="784.6" y2="199.4" class="ln hair"/>
+<line x1="968.5" y1="12.6" x2="739.8" y2="141.0" class="ln hair"/>
+<line x1="964.1" y1="2.1" x2="711.6" y2="73.0" class="ln hair"/>
+<line x1="964.2" y1="3.1" x2="702.0" y2="0.0" class="ln hair"/>
+<line x1="965.7" y1="-8.1" x2="711.6" y2="-73.0" class="ln hair"/>
+<line x1="965.3" y1="-7.2" x2="739.8" y2="-141.0" class="ln hair"/>
+<line x1="972.2" y1="-16.2" x2="784.6" y2="-199.4" class="ln hair"/>
+<line x1="971.4" y1="-15.5" x2="843.0" y2="-244.2" class="ln hair"/>
+<line x1="981.9" y1="-19.9" x2="911.0" y2="-272.4" class="ln hair"/>
+<line x1="980.9" y1="-19.8" x2="984.0" y2="-282.0" class="ln hair"/>
+<line x1="992.1" y1="-18.3" x2="1057.0" y2="-272.4" class="ln hair"/>
+<line x1="991.2" y1="-18.7" x2="1125.0" y2="-244.2" class="ln hair"/>
+<line x1="1000.2" y1="-11.8" x2="1183.4" y2="-199.4" class="ln hair"/>
+<line x1="999.5" y1="-12.6" x2="1228.2" y2="-141.0" class="ln hair"/>
+<line x1="1003.9" y1="-2.1" x2="1256.4" y2="-73.0" class="ln hair"/><circle cx="984" cy="0" r="80" class="ln hidden"/></g>
+<g id="groupe"><circle cx="403" cy="72" r="104" class="ln w2"/><circle cx="403" cy="72" r="94" class="ln thin"/><circle cx="403" cy="72" r="40" class="ln"/><circle cx="0" cy="0" r="58" class="ln"/><circle cx="0" cy="0" r="46" class="ln thin"/><circle cx="0" cy="0" r="36" class="ln thin"/><line x1="403" y1="-32" x2="0" y2="-58" class="ln"/><line x1="403" y1="176" x2="34" y2="166" class="ln"/><path d="M14 40 L40 160" class="ln w2"/><circle cx="18" cy="70" r="15" class="ln"/><circle cx="34" cy="150" r="15" class="ln"/><path d="M403 72 L461 234" class="ln crank"/><rect x="433" y="228" width="60" height="16" rx="3" class="ln fill"/></g>
+<g id="cadre"><line x1="403" y1="72" x2="0" y2="0" class="tube-o" stroke-width="21"/><line x1="403" y1="72" x2="0" y2="0" class="tube-i" stroke-width="15"/><line x1="262" y1="-400" x2="0" y2="0" class="tube-o" stroke-width="19"/><line x1="262" y1="-400" x2="0" y2="0" class="tube-i" stroke-width="13"/><line x1="826" y1="-362" x2="403" y2="72" class="tube-o" stroke-width="45"/><line x1="826" y1="-362" x2="403" y2="72" class="tube-i" stroke-width="39"/><line x1="790" y1="-468" x2="258" y2="-412" class="tube-o" stroke-width="35"/><line x1="790" y1="-468" x2="258" y2="-412" class="tube-i" stroke-width="29"/><line x1="403" y1="72" x2="255" y2="-427" class="tube-o" stroke-width="35"/><line x1="403" y1="72" x2="255" y2="-427" class="tube-i" stroke-width="29"/><line x1="788" y1="-488" x2="832" y2="-345" class="tube-o" stroke-width="49"/><line x1="788" y1="-488" x2="832" y2="-345" class="tube-i" stroke-width="43"/><circle cx="403" cy="72" r="30" class="ln fill"/><circle cx="0" cy="0" r="12" class="ln fill"/></g>
+<g id="fourche"><path d="M832 -345 L852 -282" class="tube-o" stroke-width="42"/><path d="M832 -345 L852 -282" class="tube-i" stroke-width="36"/><path d="M852 -282 C 885 -170 920 -70 984 0" class="tube-o" stroke-width="24" fill="none"/><path d="M852 -282 C 885 -170 920 -70 984 0" class="tube-i" stroke-width="18" fill="none"/></g>
+<g id="cockpit"><line x1="788" y1="-488" x2="776" y2="-530" class="tube-o" stroke-width="35"/><line x1="788" y1="-488" x2="776" y2="-530" class="tube-i" stroke-width="29"/><path d="M770 -528 L884 -548" class="tube-o" stroke-width="30"/><path d="M770 -528 L884 -548" class="tube-i" stroke-width="24"/><path d="M884 -548 L944 -552 C1012 -556 1018 -470 990 -432 C968 -402 934 -404 910 -410" class="ln bar"/><path d="M930 -552 C940 -598 984 -600 994 -566 L986 -530" class="ln w2 fill"/></g>
+<g id="selle"><line x1="255" y1="-427" x2="199" y2="-618" class="tube-o" stroke-width="27"/><line x1="255" y1="-427" x2="199" y2="-618" class="tube-i" stroke-width="21"/><path d="M110 -634 L300 -628 C312 -616 296 -604 270 -604 L160 -606 C130 -608 112 -618 110 -634Z" class="ln w2 fill"/></g>
+<g class="dim"><line x1="0" y1="360" x2="0" y2="430"/><line x1="984" y1="360" x2="984" y2="430"/><line x1="0" y1="410" x2="984" y2="410" marker-start="url(#ar)" marker-end="url(#ar)"/><text x="492" y="398" text-anchor="middle">EMPATTEMENT 1 002</text><path d="M760 -620 L788 -488" stroke-dasharray="6 6"/><text x="700" y="-640">73,0°</text><path d="M403 72 L170 -720" stroke-dasharray="6 6"/><text x="48" y="-700">73,5°</text></g>
+</svg>
+<h1><span class="name">Garnier Cycles</span><span class="line">vélos sur mesure construits pour un seul cycliste</span></h1>
+</section><section class="board"><h2>Direction B — Vert usine</h2><p class="sub">Le site est un bâtiment d’atelier : grands aplats francs, nom monumental posé comme une enseigne au sol, vélo au trait blanc, cotes en jaune sécurité. Les sections alternent vert, jaune, noir bleuté et rouge minium.</p><div class="grid"><div class="sw" style="grid-column:span 3;background:#0F4A35;color:#ECEFEA"><span>Vert usine — hero</span><span>#0F4A35</span></div><div class="sw" style="grid-column:span 3;background:#F2D20A;color:#0D1117"><span>Jaune sécurité — cotes, CTA</span><span>#F2D20A</span></div><div class="sw" style="grid-column:span 3;background:#0D1117;color:#ECEFEA"><span>Noir bleuté</span><span>#0D1117</span></div><div class="sw" style="grid-column:span 3;background:#D2381C;color:#ECEFEA"><span>Rouge minium</span><span>#D2381C</span></div><div class="spec"><div class="k">Titres — Sofia Sans Extra Condensed 850</div><div style="font:850 104px/.85 SofiaXC;text-transform:uppercase">Cadre titane<br>3Al-2,5V</div></div><div class="spec"><div class="k">Texte & cotes — Sofia Sans Semi Condensed</div><div style="font:500 20px/1.45 SofiaSC;max-width:520px">Tubes Columbus et Reynolds choisis selon votre poids et votre pratique. Chiffres tabulaires pour les cotes :</div><div style="font:700 44px/1.1 SofiaSC;margin-top:14px;font-variant-numeric:tabular-nums">73,5° · 1 002 mm · 1 640 g</div></div><div class="seq"><div style="background:#0F4A35;color:#ECEFEA">00 Hero</div><div style="background:#0D1117;color:#ECEFEA">01 Vue éclatée</div><div style="background:#F2D20A;color:#0D1117">02 Atelier</div><div style="background:#0F4A35;color:#ECEFEA">03 Procédé</div><div style="background:#D2381C;color:#ECEFEA">04 Acier/Titane</div><div style="background:#0D1117;color:#ECEFEA">05 Modèles</div><div style="background:#F2D20A;color:#0D1117">06 Options</div><div style="background:#0F4A35;color:#ECEFEA">07 Fiche client</div><div style="background:#D2381C;color:#ECEFEA">08 Avis</div><div style="background:#F2D20A;color:#0D1117">09 Étude</div><div style="background:#0D1117;color:#ECEFEA">10 FAQ</div></div><div class="refs"><div><b>savvycal.com</b>Aplat vert profond pleine page, titre en couleur acide : la couleur porte tout, sans photo.</div><div><b>frerejones.com</b>Bento de spécimens : panneaux de couleurs franches juxtaposés, chacun avec une seule idée.</div><div><b>hardwareoperations.com</b>Composant technique isolé, cadré avec beaucoup de vide autour.</div></div></div></section></body></html>

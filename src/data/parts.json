@@ -1,0 +1,9 @@
+[
+  {"id": "selle", "num": "06", "name": "Selle", "weight": "380 g", "material": "Tige titane Ø 27,2 mm, selle choisie pendant l’étude", "role": "Point d’appui principal · recul réglé à 15 mm", "offset": [-120, -380], "mobile": [0, -380], "anchor": [230, -668], "label": [-140, -1010], "align": "right", "step": 1},
+  {"id": "cockpit", "num": "05", "name": "Cockpit", "weight": "540 g", "material": "Potence titane soudée à l’atelier, 110 mm · cintre 42 cm", "role": "Place le haut du corps : mains, épaules, nuque", "offset": [200, -470], "mobile": [0, -420], "anchor": [850, -545], "label": [1250, -1060], "step": 1},
+  {"id": "fourche", "num": "02", "name": "Fourche", "weight": "390 g", "material": "Carbone, pivot conique 1 1/8 – 1 1/2", "role": "Dirige la roue avant · déport 45 mm", "offset": [160, -320], "mobile": [0, -200], "anchor": [930, -150], "label": [1250, -630], "step": 3},
+  {"id": "roue-av", "num": "03", "name": "Roues", "note": false, "offset": [360, 40], "mobile": [0, 400], "step": 2},
+  {"id": "roue-ar", "num": "03", "name": "Roues", "weight": "1 420 g la paire", "material": "Jantes carbone 40 mm, 24 rayons croisés, montées à la main", "role": "Inertie et rendement · pneus 28 mm", "offset": [-360, 40], "mobile": [0, 400], "anchor": [-240, -200], "label": [-590, -650], "step": 2},
+  {"id": "groupe", "num": "04", "name": "Groupe", "weight": "2 460 g", "material": "Transmission 2 × 12, plateaux 50/34, cassette 11-34", "role": "Transmet la puissance · manivelles 172,5 mm", "offset": [0, 320], "mobile": [0, 860], "anchor": [470, 40], "label": [600, 330], "step": 3},
+  {"id": "cadre", "num": "01", "name": "Cadre", "weight": "1 480 g", "material": "Titane 3Al-2,5V, tubes à épaisseur variable, soudure TIG", "role": "Porte vos cotes. Votre nom est gravé sous le boîtier.", "offset": [0, 0], "mobile": [0, 0], "anchor": [500, -448], "label": [330, -760], "step": 4}
+]

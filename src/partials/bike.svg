@@ -1,0 +1,144 @@
+<svg class="bike" viewBox="-380 -800 1760 1240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bike-t"><title id="bike-t">Dessin technique d’un vélo de route sur mesure en titane, vue de profil côté transmission</title><defs><marker id="arr" viewBox="0 0 12 12" refX="6" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0 2 L12 6 L0 10" class="dim"/></marker></defs><g class="bike-root"><g data-part="roue-ar" id="p-roue-ar">
+<circle cx="0" cy="0" r="339" class="ln w2"/><circle cx="0" cy="0" r="314" class="ln"/><circle cx="0" cy="0" r="309" class="ln thin"/><circle cx="0" cy="0" r="274" class="ln"/>
+<line x1="16" y1="-20.5" x2="274" y2="0" class="ln hair"/>
+<line x1="10.2" y1="23.9" x2="264.7" y2="70.9" class="ln hair"/>
+<line x1="24.1" y1="-9.7" x2="237.3" y2="137" class="ln hair"/>
+<line x1="-3.2" y1="25.8" x2="193.7" y2="193.7" class="ln hair"/>
+<line x1="25.7" y1="3.6" x2="137" y2="237.3" class="ln hair"/>
+<line x1="-15.6" y1="20.8" x2="70.9" y2="264.7" class="ln hair"/>
+<line x1="20.5" y1="16" x2="0" y2="274" class="ln hair"/>
+<line x1="-23.9" y1="10.2" x2="-70.9" y2="264.7" class="ln hair"/>
+<line x1="9.7" y1="24.1" x2="-137" y2="237.3" class="ln hair"/>
+<line x1="-25.8" y1="-3.2" x2="-193.7" y2="193.7" class="ln hair"/>
+<line x1="-3.6" y1="25.7" x2="-237.3" y2="137" class="ln hair"/>
+<line x1="-20.8" y1="-15.6" x2="-264.7" y2="70.9" class="ln hair"/>
+<line x1="-16" y1="20.5" x2="-274" y2="0" class="ln hair"/>
+<line x1="-10.2" y1="-23.9" x2="-264.7" y2="-70.9" class="ln hair"/>
+<line x1="-24.1" y1="9.7" x2="-237.3" y2="-137" class="ln hair"/>
+<line x1="3.2" y1="-25.8" x2="-193.7" y2="-193.7" class="ln hair"/>
+<line x1="-25.7" y1="-3.6" x2="-137" y2="-237.3" class="ln hair"/>
+<line x1="15.6" y1="-20.8" x2="-70.9" y2="-264.7" class="ln hair"/>
+<line x1="-20.5" y1="-16" x2="-0" y2="-274" class="ln hair"/>
+<line x1="23.9" y1="-10.2" x2="70.9" y2="-264.7" class="ln hair"/>
+<line x1="-9.7" y1="-24.1" x2="137" y2="-237.3" class="ln hair"/>
+<line x1="25.8" y1="3.2" x2="193.7" y2="-193.7" class="ln hair"/>
+<line x1="3.6" y1="-25.7" x2="237.3" y2="-137" class="ln hair"/>
+<line x1="20.8" y1="15.6" x2="264.7" y2="-70.9" class="ln hair"/>
+<rect x="-3.5" y="-308" width="7" height="34" class="ln fl"/>
+<circle cx="0" cy="0" r="80" class="ln hd"/><circle cx="0" cy="0" r="68" class="ln hd"/>
+<circle cx="0" cy="0" r="30" class="ln fl"/><circle cx="0" cy="0" r="18" class="ln thin"/><circle cx="0" cy="0" r="9" class="ln"/>
+</g>
+<g data-part="roue-av" id="p-roue-av">
+<circle cx="984.3" cy="0" r="339" class="ln w2"/><circle cx="984.3" cy="0" r="314" class="ln"/><circle cx="984.3" cy="0" r="309" class="ln thin"/><circle cx="984.3" cy="0" r="274" class="ln"/>
+<line x1="1000.4" y1="-20.5" x2="1258.3" y2="0" class="ln hair"/>
+<line x1="994.5" y1="23.9" x2="1249" y2="70.9" class="ln hair"/>
+<line x1="1008.5" y1="-9.7" x2="1221.6" y2="137" class="ln hair"/>
+<line x1="981.2" y1="25.8" x2="1178.1" y2="193.7" class="ln hair"/>
+<line x1="1010.1" y1="3.6" x2="1121.3" y2="237.3" class="ln hair"/>
+<line x1="968.7" y1="20.8" x2="1055.3" y2="264.7" class="ln hair"/>
+<line x1="1004.8" y1="16" x2="984.3" y2="274" class="ln hair"/>
+<line x1="960.4" y1="10.2" x2="913.4" y2="264.7" class="ln hair"/>
+<line x1="994.1" y1="24.1" x2="847.3" y2="237.3" class="ln hair"/>
+<line x1="958.5" y1="-3.2" x2="790.6" y2="193.7" class="ln hair"/>
+<line x1="980.7" y1="25.7" x2="747.1" y2="137" class="ln hair"/>
+<line x1="963.6" y1="-15.6" x2="719.7" y2="70.9" class="ln hair"/>
+<line x1="968.3" y1="20.5" x2="710.3" y2="0" class="ln hair"/>
+<line x1="974.2" y1="-23.9" x2="719.7" y2="-70.9" class="ln hair"/>
+<line x1="960.2" y1="9.7" x2="747.1" y2="-137" class="ln hair"/>
+<line x1="987.5" y1="-25.8" x2="790.6" y2="-193.7" class="ln hair"/>
+<line x1="958.6" y1="-3.6" x2="847.3" y2="-237.3" class="ln hair"/>
+<line x1="1000" y1="-20.8" x2="913.4" y2="-264.7" class="ln hair"/>
+<line x1="963.9" y1="-16" x2="984.3" y2="-274" class="ln hair"/>
+<line x1="1008.3" y1="-10.2" x2="1055.3" y2="-264.7" class="ln hair"/>
+<line x1="974.6" y1="-24.1" x2="1121.3" y2="-237.3" class="ln hair"/>
+<line x1="1010.2" y1="3.2" x2="1178.1" y2="-193.7" class="ln hair"/>
+<line x1="988" y1="-25.7" x2="1221.6" y2="-137" class="ln hair"/>
+<line x1="1005.1" y1="15.6" x2="1249" y2="-70.9" class="ln hair"/>
+<rect x="980.8" y="-308" width="7" height="34" class="ln fl"/>
+<circle cx="984.3" cy="0" r="80" class="ln hd"/><circle cx="984.3" cy="0" r="68" class="ln hd"/>
+<circle cx="984.3" cy="0" r="30" class="ln fl"/><circle cx="984.3" cy="0" r="18" class="ln thin"/><circle cx="984.3" cy="0" r="9" class="ln"/>
+</g>
+<g data-part="fourche" id="p-fourche">
+<polygon points="766.9,-534.8 778,-498.5 805.3,-506.8 794.2,-543.2" class="ln fl"/>
+<polygon points="778,-498.5 822.6,-336.4 858.9,-347.5 805.3,-506.8" class="ln fl"/>
+<path d="M821.3,-323.5 L869.2,-338.1 L873.7,-316.5 C923.3,-174.8 978.3,-70 998.3,-14 L972.3,10 C944.3,-40 888.8,-164.3 829.7,-303 Z" class="ln fl"/>
+<path d="M851.7,-309.8 C906.1,-169.5 960.3,-60 984.3,-2" class="cl"/>
+<circle cx="984.3" cy="0" r="13" class="ln fl"/><circle cx="984.3" cy="0" r="6" class="ln"/>
+<path d="M926.3,-78 l40 -22 l26 44 l-40 22 Z" class="ln hd"/>
+</g>
+<g data-part="selle" id="p-selle">
+<polygon points="269.4,-432.4 206.3,-645.3 180.2,-637.6 243.3,-424.7" class="ln fl"/>
+<polygon points="283.6,-384.5 269.4,-432.4 243.3,-424.7 257.5,-376.8" class="ln fl"/>
+<path d="M171.3 -647.4 h44 v14 h-44 Z" class="ln fl"/>
+<path d="M123.3 -649.4 L273.3 -649.4" class="ln"/>
+<path d="M83.3 -671.4 C123.3 -681.4 233.3 -671.4 343.3 -667.4 C355.3 -665.4 351.3 -653.4 339.3 -653.4 L213.3 -653.4 C133.3 -653.4 93.3 -649.4 77.3 -659.4 C71.3 -663.4 75.3 -669.4 83.3 -671.4 Z" class="ln fl"/>
+</g>
+<g data-part="cadre" id="p-cadre">
+<g class="cl"><line x1="404" y1="70" x2="245" y2="-466.9" class=""/><line x1="801" y1="-472" x2="256.3" y2="-428.6" class=""/><line x1="834.3" y1="-363" x2="404" y2="70" class=""/><line x1="785.2" y1="-523.7" x2="849.6" y2="-313.3" class=""/><line x1="404" y1="70" x2="0" y2="0" class=""/><line x1="262" y1="-409.4" x2="0" y2="0" class=""/></g>
+<polygon points="255.3,-413.8 9,-29.3 19,-22.7 268.7,-405.1" class="ln fl"/>
+<polygon points="406.3,58.2 23.3,-10.9 20.7,2.9 401.7,81.8" class="ln fl"/>
+<polygon points="257.6,-412.6 802.3,-456.1 799.7,-488 255,-444.5" class="ln fl"/>
+<polygon points="419.8,85.7 850.1,-347.3 818.6,-378.7 388.2,54.3" class="ln fl"/>
+<path d="M-18 -22 L22 -34 L40 -10 L32 16 L-2 20 L-20 6 Z" class="ln fl"/>
+<circle cx="0" cy="0" r="13" class="ln fl"/><circle cx="0" cy="0" r="6" class="ln"/>
+<polygon points="419.3,65.5 260.3,-471.5 229.6,-462.4 388.7,74.5" class="ln fl"/>
+<polygon points="770.5,-489.9 818.4,-333.1 864.3,-347.1 816.4,-503.9" class="ln fl"/>
+<polygon points="765.8,-494.8 769.9,-481.4 821.6,-497.2 817.5,-510.5" class="ln fl"/>
+<polygon points="813.2,-339.8 817.3,-326.4 868.9,-342.2 864.8,-355.6" class="ln fl"/>
+<polygon points="270.6,-447.4 263.2,-472.3 226.7,-461.5 234.1,-436.6" class="ln fl"/>
+<circle cx="404" cy="70" r="27" class="ln fl"/><circle cx="404" cy="70" r="21" class="ln thin"/>
+<path d="M268,-445.6 Q273.6,-443.7 269.3,-441.1 Q274.9,-439.2 270.6,-436.6 Q276.3,-434.8 272,-432.1 Q277.6,-430.3 273.3,-427.6 Q278.9,-425.8 274.6,-423.2 Q280.3,-421.3 275.9,-418.7 Q281.6,-416.8 277.3,-414.2" class="ln weld"/>
+<path d="M781.3,-454.4 Q775.6,-456.3 779.9,-458.9 Q774.3,-460.7 778.6,-463.4 Q772.9,-465.2 777.2,-467.9 Q771.5,-469.7 775.8,-472.3 Q770.2,-474.2 774.5,-476.8 Q768.8,-478.6 773.1,-481.3 Q767.4,-483.1 771.7,-485.8" class="ln weld"/>
+<path d="M822.5,-319.6 Q818,-319.5 820.4,-326.5 Q815.8,-326.4 818.3,-333.4 Q813.7,-333.3 816.2,-340.3 Q811.6,-340.2 814.1,-347.2 Q809.5,-347.1 812,-354.1 Q807.4,-354 809.9,-361 Q805.3,-360.9 807.8,-367.9" class="ln weld"/>
+<path d="M276.4,-417.1 Q273.3,-414.3 275.5,-420 Q272.4,-417.2 274.7,-422.9 Q271.6,-420.1 273.8,-425.8 Q270.7,-423 273,-428.7 Q269.8,-425.9 272.1,-431.6 Q269,-428.8 271.3,-434.5 Q268.1,-431.7 270.4,-437.4" class="ln weld"/>
+<polygon points="379.6,-61.5 393.9,-69.9 386.5,-94.8 370,-94.1" class="ln fl"/>
+<circle cx="782.3" cy="-297" r="4" class="ln"/>
+<path d="M390 104 h28" class="ln thin"/>
+</g>
+<g data-part="groupe" id="p-groupe">
+<line x1="0.2" y1="-30" x2="404.7" y2="-27" class="ln chain"/><line x1="0.3" y1="-38" x2="404.8" y2="-35" class="ln chain"/><circle cx="13.3" cy="-33.9" r="1.6" class="ln pin"/><circle cx="26.3" cy="-33.8" r="1.6" class="ln pin"/><circle cx="39.4" cy="-33.7" r="1.6" class="ln pin"/><circle cx="52.4" cy="-33.6" r="1.6" class="ln pin"/><circle cx="65.5" cy="-33.5" r="1.6" class="ln pin"/><circle cx="78.5" cy="-33.4" r="1.6" class="ln pin"/><circle cx="91.6" cy="-33.3" r="1.6" class="ln pin"/><circle cx="104.6" cy="-33.2" r="1.6" class="ln pin"/><circle cx="117.7" cy="-33.1" r="1.6" class="ln pin"/><circle cx="130.7" cy="-33" r="1.6" class="ln pin"/><circle cx="143.8" cy="-32.9" r="1.6" class="ln pin"/><circle cx="156.8" cy="-32.8" r="1.6" class="ln pin"/><circle cx="169.9" cy="-32.7" r="1.6" class="ln pin"/><circle cx="182.9" cy="-32.6" r="1.6" class="ln pin"/><circle cx="196" cy="-32.5" r="1.6" class="ln pin"/><circle cx="209" cy="-32.4" r="1.6" class="ln pin"/><circle cx="222.1" cy="-32.4" r="1.6" class="ln pin"/><circle cx="235.1" cy="-32.3" r="1.6" class="ln pin"/><circle cx="248.2" cy="-32.2" r="1.6" class="ln pin"/><circle cx="261.2" cy="-32.1" r="1.6" class="ln pin"/><circle cx="274.3" cy="-32" r="1.6" class="ln pin"/><circle cx="287.3" cy="-31.9" r="1.6" class="ln pin"/><circle cx="300.4" cy="-31.8" r="1.6" class="ln pin"/><circle cx="313.4" cy="-31.7" r="1.6" class="ln pin"/><circle cx="326.5" cy="-31.6" r="1.6" class="ln pin"/><circle cx="339.5" cy="-31.5" r="1.6" class="ln pin"/><circle cx="352.6" cy="-31.4" r="1.6" class="ln pin"/><circle cx="365.6" cy="-31.3" r="1.6" class="ln pin"/><circle cx="378.7" cy="-31.2" r="1.6" class="ln pin"/><circle cx="391.7" cy="-31.1" r="1.6" class="ln pin"/>
+<line x1="398" y1="166.8" x2="43.4" y2="145" class="ln chain"/><line x1="397.5" y1="174.8" x2="43" y2="153" class="ln chain"/><circle cx="384.7" cy="170" r="1.6" class="ln pin"/><circle cx="371.5" cy="169.2" r="1.6" class="ln pin"/><circle cx="358.4" cy="168.4" r="1.6" class="ln pin"/><circle cx="345.3" cy="167.6" r="1.6" class="ln pin"/><circle cx="332.1" cy="166.8" r="1.6" class="ln pin"/><circle cx="319" cy="166" r="1.6" class="ln pin"/><circle cx="305.9" cy="165.1" r="1.6" class="ln pin"/><circle cx="292.7" cy="164.3" r="1.6" class="ln pin"/><circle cx="279.6" cy="163.5" r="1.6" class="ln pin"/><circle cx="266.5" cy="162.7" r="1.6" class="ln pin"/><circle cx="253.3" cy="161.9" r="1.6" class="ln pin"/><circle cx="240.2" cy="161.1" r="1.6" class="ln pin"/><circle cx="227.1" cy="160.3" r="1.6" class="ln pin"/><circle cx="213.9" cy="159.5" r="1.6" class="ln pin"/><circle cx="200.8" cy="158.7" r="1.6" class="ln pin"/><circle cx="187.7" cy="157.9" r="1.6" class="ln pin"/><circle cx="174.5" cy="157.1" r="1.6" class="ln pin"/><circle cx="161.4" cy="156.3" r="1.6" class="ln pin"/><circle cx="148.3" cy="155.4" r="1.6" class="ln pin"/><circle cx="135.1" cy="154.6" r="1.6" class="ln pin"/><circle cx="122" cy="153.8" r="1.6" class="ln pin"/><circle cx="108.9" cy="153" r="1.6" class="ln pin"/><circle cx="95.7" cy="152.2" r="1.6" class="ln pin"/><circle cx="82.6" cy="151.4" r="1.6" class="ln pin"/><circle cx="69.5" cy="150.6" r="1.6" class="ln pin"/><circle cx="56.3" cy="149.8" r="1.6" class="ln pin"/>
+<line x1="-27.6" y1="26.1" x2="13.7" y2="69.7" class="ln chain thin"/><line x1="-21.8" y1="20.6" x2="19.5" y2="64.2" class="ln chain thin"/><circle cx="-14.4" cy="34.3" r="1.6" class="ln pin"/><circle cx="-4.1" cy="45.2" r="1.6" class="ln pin"/><circle cx="6.2" cy="56" r="1.6" class="ln pin"/>
+<circle cx="0" cy="0" r="64" class="ln"/>
+<circle cx="0" cy="0" r="58" class="ln thin"/>
+<circle cx="0" cy="0" r="52" class="ln thin"/>
+<circle cx="0" cy="0" r="47" class="ln thin"/>
+<circle cx="0" cy="0" r="42" class="ln thin"/>
+<circle cx="0" cy="0" r="37" class="ln thin"/>
+<circle cx="0" cy="0" r="33" class="ln thin"/>
+<circle cx="0" cy="0" r="29" class="ln thin"/>
+<circle cx="0" cy="0" r="26" class="ln thin"/>
+<circle cx="0" cy="0" r="23" class="ln thin"/>
+<path d="M30 -20 L78 6 L74 34 L44 44 L34 30 Z" class="ln fl"/>
+<path d="M12,46 L28,146 L58,152 L42,54 Z" class="ln fl"/>
+<circle cx="26" cy="58" r="13" class="ln fl"/><circle cx="26" cy="58" r="4" class="ln"/><circle cx="44" cy="136" r="13" class="ln fl"/><circle cx="44" cy="136" r="4" class="ln"/>
+<circle cx="404" cy="70" r="104" class="ln w2 fl"/><circle cx="404" cy="70" r="96" class="ln thin"/><circle cx="404" cy="70" r="72" class="ln"/><circle cx="404" cy="70" r="66" class="ln thin"/>
+<line x1="425.2" y1="91.2" x2="449.3" y2="115.3" class="ln w2"/>
+<line x1="382.8" y1="91.2" x2="358.7" y2="115.3" class="ln w2"/>
+<line x1="382.8" y1="48.8" x2="358.7" y2="24.7" class="ln w2"/>
+<line x1="425.2" y1="48.8" x2="449.3" y2="24.7" class="ln w2"/>
+<polygon points="385,76.2 445.9,237.8 468.7,230.3 423,63.8" class="ln fl"/>
+<circle cx="404" cy="70" r="22" class="ln fl"/><circle cx="404" cy="70" r="8" class="ln"/><circle cx="457.3" cy="234.1" r="8" class="ln"/>
+<rect x="409.3" y="228.1" width="96" height="20" rx="4" class="ln fl"/>
+<path d="M394,-83.5 l-62 -2 c-8 0 -10 10 -4 16 l58 12 Z" class="ln fl"/>
+</g>
+<g data-part="cockpit" id="p-cockpit">
+<polygon points="808.9,-507.9 806,-517.5 771.5,-507 774.4,-497.4" class="ln fl"/>
+<polygon points="806,-517.5 803,-527 768.6,-516.5 771.5,-507" class="ln fl"/>
+<polygon points="803,-527 800.1,-536.6 765.7,-526.1 768.6,-516.5" class="ln fl"/>
+<polygon points="807.1,-524.1 793.6,-568.1 753.5,-555.8 766.9,-511.8" class="ln fl"/>
+<polygon points="789.8,-566.9 788,-572.6 755.5,-562.7 757.3,-557" class="ln fl"/>
+<polygon points="781.2,-522 891.1,-528 890,-558 779.9,-556" class="ln fl"/>
+<circle cx="890.6" cy="-543" r="22" class="ln fl"/><circle cx="890.6" cy="-543" r="15.9" class="ln thin"/>
+<line x1="890.6" y1="-565" x2="890.6" y2="-521" class="ln thin"/>
+<path d="M890.6 -543 L934.6 -545 C992.6 -547 1004.6 -483 994.6 -447 C984.6 -415 952.6 -411 920.6 -417" class="ln barO"/><path d="M890.6 -543 L934.6 -545 C992.6 -547 1004.6 -483 994.6 -447 C984.6 -415 952.6 -411 920.6 -417" class="ln barI"/>
+<path d="M942.6 -545 C948.6 -569 980.6 -581 1004.6 -583 C1016.6 -583 1018.6 -569 1012.6 -559 C1008.6 -551 1006.6 -541 1002.6 -535 Z" class="ln fl"/>
+<path d="M1006.6 -539 C1022.6 -497 1016.6 -455 1000.6 -427" class="ln leverO"/><path d="M1006.6 -539 C1022.6 -497 1016.6 -455 1000.6 -427" class="ln leverI"/>
+</g>
+<g class="cotes" id="cotes">
+<line x1="0" y1="360" x2="0" y2="418" class="dim"/><line x1="984.3" y1="360" x2="984.3" y2="418" class="dim"/>
+<line x1="0" y1="400" x2="984.3" y2="400" class="dim" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="492.2" y="386" text-anchor="middle" class="dimt">EMPATTEMENT 984 MM</text>
+<line x1="404" y1="70" x2="154.1" y2="-773.8" class="dim dash"/><text x="140.1" y="-787.8" text-anchor="middle" class="dimt">73,5°</text>
+<line x1="858.3" y1="-284.6" x2="750.1" y2="-638.4" class="dim dash"/><text x="754.1" y="-652.4" text-anchor="middle" class="dimt">73,0°</text>
+</g></g></svg>

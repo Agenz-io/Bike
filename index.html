@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vélo sur mesure acier et titane à Annecy | Garnier Cycles (démo)</title>
+<meta name="description" content="Artisan cadreur à Annecy : vélos sur mesure, cadre titane sur mesure ou acier soudé main. Étude posturale vélo 180 €. Site démo, entreprise fictive.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0F4A35">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/Sofia_Sans_Extra_Condensed.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/Sofia_Sans_Semi_Condensed.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Garnier Cycles · Construit pour un seul cycliste (démo)">
+<meta property="og:description" content="Vélos sur mesure en acier et titane, soudés à la main à Annecy. Site de démonstration, entreprise fictive.">
+<meta property="og:locale" content="fr_FR">
+<script>
+  /* choisit le cadrage du dessin avant le premier affichage */
+  (function () {
+    var d = document.documentElement, m = window.matchMedia;
+    d.classList.add('js');
+    if (!m('(prefers-reduced-motion: reduce)').matches) d.classList.add(m('(max-width: 899px)').matches ? 'motion-m' : 'motion-d');
+  })();
+</script>
+<link rel="stylesheet" href="/src/styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BikeStore",
+  "@id": "#atelier",
+  "name": "Garnier Cycles (entreprise fictive, site de démonstration)",
+  "description": "Atelier de vélos sur mesure à Annecy. Cadres acier et titane soudés à la main, 40 vélos par an. Étude posturale vélo à 180 €, déduits de la commande.",
+  "founder": {"@type": "Person", "name": "Théo Garnier"},
+  "foundingDate": "2015",
+  "address": {"@type": "PostalAddress", "streetAddress": "27 rue de l’Industrie (adresse fictive)", "postalCode": "74000", "addressLocality": "Annecy", "addressCountry": "FR"},
+  "telephone": "+33 4 50 00 00 00",
+  "email": "contact@garnier-cycles.example.com",
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:30"}
+  ],
+  "priceRange": "4900 € – 12000 €",
+  "areaServed": "France",
+  "knowsAbout": ["vélo sur mesure", "cadre titane sur mesure", "artisan cadreur", "étude posturale vélo"]
+}
+</script>
+<script type="application/ld+json">
+[
+  {"@context": "https://schema.org", "@type": "Product", "name": "Garnier Forclaz, vélo de route sur mesure", "description": "Vélo de route sur mesure, cadre acier ou titane soudé à la main à Annecy. Pneus jusqu’à 32 mm, transmission 2 × 12. Modèle fictif (site de démonstration).", "category": "Vélo de route", "brand": {"@type": "Brand", "name": "Garnier Cycles"}, "material": "Acier chrome-molybdène ou titane 3Al-2,5V", "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "4900", "highPrice": "12000", "availability": "https://schema.org/PreOrder", "seller": {"@id": "#atelier"}}},
+  {"@context": "https://schema.org", "@type": "Product", "name": "Garnier Semnoz, vélo gravel sur mesure", "description": "Vélo gravel sur mesure, cadre acier ou titane. Pneus jusqu’à 50 mm, fixations de bagagerie. Modèle fictif (site de démonstration).", "category": "Vélo gravel", "brand": {"@type": "Brand", "name": "Garnier Cycles"}, "material": "Acier chrome-molybdène ou titane 3Al-2,5V", "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "5400", "highPrice": "12000", "availability": "https://schema.org/PreOrder", "seller": {"@id": "#atelier"}}},
+  {"@context": "https://schema.org", "@type": "Product", "name": "Garnier Aravis, vélo de randonnée sur mesure", "description": "Vélo de randonnée sur mesure, porte-bagages soudés, éclairage dynamo, garde-boue. Modèle fictif (site de démonstration).", "category": "Vélo de randonnée", "brand": {"@type": "Brand", "name": "Garnier Cycles"}, "material": "Acier chrome-molybdène ou titane 3Al-2,5V", "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "5200", "highPrice": "12000", "availability": "https://schema.org/PreOrder", "seller": {"@id": "#atelier"}}}
+]
+</script>
+<script type="application/ld+json" id="faq-ld">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Quel délai entre l’étude posturale et la livraison ?", "acceptedAnswer": {"@type": "Answer", "text": "Comptez 12 à 16 semaines. La file d’attente est affichée à l’atelier et mise à jour chaque lundi. Entre février et avril, ajoutez quatre semaines."}},
+    {"@type": "Question", "name": "Quelle garantie sur le cadre ?", "acceptedAnswer": {"@type": "Answer", "text": "Cadre titane : garanti à vie pour le premier propriétaire. Cadre acier : 10 ans. Peinture : 2 ans. Composants : garantie du fabricant, 2 ans minimum. Un contrôle gratuit est prévu à 500 km."}},
+    {"@type": "Question", "name": "Peut-on essayer avant de commander ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui. Pendant l’étude, vous roulez sur un vélo de réglage qui reproduit vos cotes. Deux vélos de démonstration (route acier, gravel titane) peuvent aussi être empruntés une journée."}},
+    {"@type": "Question", "name": "Proposez-vous un financement ?", "acceptedAnswer": {"@type": "Answer", "text": "Le paiement se fait en trois temps : 30 % à la validation du plan, 40 % au début de la soudure, le solde à la livraison. Un paiement en 4 fois sans frais est possible sur le solde."}},
+    {"@type": "Question", "name": "Livrez-vous hors d’Annecy ?", "acceptedAnswer": {"@type": "Answer", "text": "La remise en main à l’atelier est recommandée. Sinon, le vélo voyage monté à 90 % dans une caisse en bois réutilisable : 90 € en France, 180 € dans l’Union européenne."}},
+    {"@type": "Question", "name": "Les 180 € de l’étude sont-ils perdus si je ne commande pas ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Vous repartez avec votre rapport de cotes, utilisable chez n’importe quel cadreur ou vélociste. Si vous commandez dans les 12 mois, les 180 € sont déduits."}}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<!-- ============================================================ 00 · ÉLÉVATION -->
+<section class="hero s-vert" id="haut" aria-labelledby="titre">
+  <header class="nav">
+    <a class="wm" href="#haut" aria-label="Garnier Cycles, retour en haut">Garnier Cycles</a>
+    <nav aria-label="Navigation principale">
+      <ul class="nav-l">
+        <li><a href="#atelier">Atelier</a></li>
+        <li><a href="#procede">Procédé</a></li>
+        <li><a href="#modeles">Modèles</a></li>
+        <li><a href="#options">Options</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <details class="nav-m">
+        <summary>Menu</summary>
+        <ul>
+          <li><a href="#atelier">Atelier</a></li>
+          <li><a href="#procede">Procédé</a></li>
+          <li><a href="#materiaux">Acier ou titane</a></li>
+          <li><a href="#modeles">Modèles</a></li>
+          <li><a href="#options">Options</a></li>
+          <li><a href="#fiche">Fiche client</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </details>
+    </nav>
+    <a class="btn btn-y nav-cta" href="#etude">Étude posturale<span class="n"> · 180 €</span></a>
+  </header>
+
+  <div class="hero-top">
+    <p class="hero-k">Artisan cadreur · Annecy · depuis 2015</p>
+    <p class="hero-meta">40 vélos par an, pas un de plus<br>Nom du propriétaire gravé<br>sous le boîtier de pédalier</p>
+  </div>
+
+  <div class="stage" id="stage">
+    <!-- @include bike.svg -->
+    <p class="hud" aria-hidden="true"><span class="hud-n">00</span> / 06 · Nomenclature</p>
+  </div>
+
+  <h1 id="titre" class="hero-h1">
+    <span class="hero-line">Vélos sur mesure en acier et titane, construits pour un seul cycliste.</span>
+    <span class="hero-name">Garnier Cycles</span>
+  </h1>
+  <p class="hero-hint" aria-hidden="true">Défilez : le vélo se démonte</p>
+</section>
+
+<main id="contenu">
+
+<!-- ============================================================ 01 · NOMENCLATURE (texte, toujours présent) -->
+<section class="nomen s-vert" id="nomenclature" aria-labelledby="t-nomen">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 01 · Nomenclature</p>
+      <h2 class="sh-t" id="t-nomen">Six pièces, un seul cycliste</h2>
+    </header>
+    <!-- @include nomenclature.html -->
+  </div>
+</section>
+
+<!-- ============================================================ 02 · ATELIER -->
+<section class="s-jaune sec" id="atelier" aria-labelledby="t-atelier">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 02 · L’atelier</p>
+      <h2 class="sh-t" id="t-atelier">Un mécanicien de course devenu artisan cadreur</h2>
+    </header>
+
+    <div class="bento b-atelier">
+      <article class="tile t-lead">
+        <p class="tile-k">Théo Garnier, fondateur</p>
+        <p class="tile-big">Neuf saisons à régler les vélos des autres. Depuis 2015, il construit les siens, un par un.</p>
+        <div class="prose">
+          <p>Théo a passé neuf saisons comme mécanicien dans une équipe professionnelle sur route. Il préparait des vélos de série pour des coureurs qui n’étaient pas de série : cales décalées, potences retournées, selles avancées au maximum du chariot.</p>
+          <p>En 2015, il ouvre son atelier à Annecy avec une règle simple : partir du corps, pas du catalogue. Chaque cadre est dessiné, coupé, soudé et monté sur place. Le nom de son propriétaire est gravé sous le boîtier de pédalier.</p>
+        </div>
+      </article>
+      <figure class="tile t-photo ph" style="--ar: 4 / 5">
+        <div class="ph-box" role="img" aria-label="Cordon de soudure TIG sur une jonction de tubes en titane">
+          <span class="ph-f">atelier-soudure.webp</span><span class="ph-d">1200 × 1500 · 4:5</span>
+        </div>
+        <figcaption>Cordon TIG sous argon, jonction tube horizontal / tube de selle.</figcaption>
+      </figure>
+      <article class="tile t-stat">
+        <p class="stat"><span class="count" data-to="40">40</span></p>
+        <p class="tile-k">vélos par an, au maximum</p>
+      </article>
+      <article class="tile t-stat">
+        <p class="stat"><span class="count" data-to="312">312</span></p>
+        <p class="tile-k">vélos livrés depuis 2015</p>
+      </article>
+      <figure class="tile t-photo2 ph" style="--ar: 1 / 1">
+        <div class="ph-box" role="img" aria-label="Mur d’outils de l’atelier : limes, alésoirs, équerres">
+          <span class="ph-f">atelier-outils.webp</span><span class="ph-d">1200 × 1200 · 1:1</span>
+        </div>
+      </figure>
+      <article class="tile t-rule">
+        <p class="tile-k">Ce que l’atelier ne fait pas</p>
+        <ul class="list">
+          <li>Pas de cadres en carbone.</li>
+          <li>Pas de tailles standard en stock.</li>
+          <li>Pas de sous-traitance de la soudure.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 03 · PROCÉDÉ -->
+<section class="s-noir sec" id="procede" aria-labelledby="t-procede">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 03 · Procédé</p>
+      <h2 class="sh-t" id="t-procede">Sept étapes, de 12 à 16 semaines</h2>
+      <p class="sh-l">Le planning est fixé à la validation du plan. Vous recevez une photo à chaque étape terminée.</p>
+    </header>
+
+    <ol class="steps">
+      <li class="step">
+        <span class="step-n">01</span>
+        <h3 class="step-t">Étude posturale</h3>
+        <p class="step-d">Mesures anthropométriques, souplesse, historique de blessures, puis réglages sur vélo de réglage. Vous repartez avec vos cotes.</p>
+        <p class="step-time"><span>2 h 30</span><span>Semaine 0</span></p>
+      </li>
+      <li class="step">
+        <span class="step-n">02</span>
+        <h3 class="step-t">Plan du cadre</h3>
+        <p class="step-d">Géométrie dessinée à partir de l’étude : angles, stack, reach, longueur des bases. Le plan coté vous est envoyé pour validation.</p>
+        <p class="step-time"><span>1 semaine</span><span>Semaine 1</span></p>
+      </li>
+      <li class="step">
+        <span class="step-n">03</span>
+        <h3 class="step-t">Choix des tubes</h3>
+        <p class="step-d">Diamètres et épaisseurs choisis selon votre poids, votre puissance et votre pratique. Approvisionnement et contrôle des lots.</p>
+        <p class="step-time"><span>2 à 3 semaines</span><span>Semaines 2 à 4</span></p>
+      </li>
+      <li class="step">
+        <span class="step-n">04</span>
+        <h3 class="step-t">Soudure</h3>
+        <p class="step-d">Coupe, ajustage, pointage sur gabarit, puis soudure TIG sous argon. Contrôle d’alignement au comparateur après chaque passe.</p>
+        <p class="step-time"><span>35 à 50 h</span><span>Semaines 5 à 8</span></p>
+      </li>
+      <li class="step">
+        <span class="step-n">05</span>
+        <h3 class="step-t">Peinture</h3>
+        <p class="step-d">Microbillage, apprêt, laque cuite au four. Titane : brossé, microbillé ou peint. Masquages et dégradés sur option.</p>
+        <p class="step-time"><span>2 semaines</span><span>Semaines 9 à 10</span></p>
+      </li>
+      <li class="step">
+        <span class="step-n">06</span>
+        <h3 class="step-t">Montage</h3>
+        <p class="step-d">Montage complet, roues dévoilées à la main, report de toutes les cotes de l’étude au millimètre près.</p>
+        <p class="step-time"><span>1 semaine</span><span>Semaine 11</span></p>
+      </li>
+      <li class="step">
+        <span class="step-n">07</span>
+        <h3 class="step-t">Livraison</h3>
+        <p class="step-d">Remise en main à l’atelier avec une sortie de réglage, ou envoi en caisse bois. Contrôle gratuit à 500 km.</p>
+        <p class="step-time"><span>1 h 30</span><span>Semaines 12 à 16</span></p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================================ 04 · ACIER OU TITANE -->
+<section class="s-minium sec" id="materiaux" aria-labelledby="t-mat">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 04 · Matériaux</p>
+      <h2 class="sh-t" id="t-mat">Acier ou titane : un choix d’usage, pas de standing</h2>
+      <p class="sh-l">Les deux matériaux sont soudés dans le même atelier, avec la même géométrie. Ce qui change : le poids, la finition, l’entretien et le prix.</p>
+    </header>
+
+    <div class="bento b-mat">
+      <article class="tile t-mat">
+        <p class="tile-k">Acier</p>
+        <p class="mat-n">Chrome-molybdène</p>
+        <p class="mat-s">Tubes à épaisseur variable, de 0,4 à 0,9 mm</p>
+        <dl class="specs">
+          <div><dt>Poids du cadre (taille 56)</dt><dd>1 850 à 2 100 g</dd></div>
+          <div><dt>Ressenti</dt><dd>Amorti, relance franche</dd></div>
+          <div><dt>Finition</dt><dd>Peinture obligatoire</dd></div>
+          <div><dt>Entretien</dt><dd>Traitement intérieur à la livraison, surveiller les éclats</dd></div>
+          <div><dt>Garantie cadre</dt><dd>10 ans</dd></div>
+          <div><dt>Cadre seul</dt><dd>dès 2 400 €</dd></div>
+        </dl>
+        <p class="mat-pour">Pour la randonnée chargée, le gravel au long cours, et ceux qui veulent une couleur.</p>
+      </article>
+      <article class="tile t-mat">
+        <p class="tile-k">Titane</p>
+        <p class="mat-n">3Al-2,5V</p>
+        <p class="mat-s">Tubes étirés à froid, de 0,7 à 1,0 mm</p>
+        <dl class="specs">
+          <div><dt>Poids du cadre (taille 56)</dt><dd>1 450 à 1 650 g</dd></div>
+          <div><dt>Ressenti</dt><dd>Amorti proche de l’acier, plus vif latéralement</dd></div>
+          <div><dt>Finition</dt><dd>Brossé, microbillé ou peint</dd></div>
+          <div><dt>Entretien</dt><dd>Aucun : le titane ne s’oxyde pas en profondeur</dd></div>
+          <div><dt>Garantie cadre</dt><dd>À vie, premier propriétaire</dd></div>
+          <div><dt>Cadre seul</dt><dd>dès 5 600 €</dd></div>
+        </dl>
+        <p class="mat-pour">Pour rouler 10 000 km par an pendant vingt ans sans y penser.</p>
+      </article>
+      <figure class="tile t-matphoto ph" style="--ar: 16 / 9">
+        <div class="ph-box" role="img" aria-label="Tubes bruts en acier et en titane rangés sur un rack d’atelier">
+          <span class="ph-f">tubes-acier-titane.webp</span><span class="ph-d">1600 × 900 · 16:9</span>
+        </div>
+        <figcaption>Tubes bruts en attente de coupe : acier à gauche, titane à droite.</figcaption>
+      </figure>
+      <article class="tile t-matnote">
+        <p class="tile-k">Notre conseil</p>
+        <p>Si votre budget total est sous 7 000 €, prenez l’acier et mettez la différence dans les roues. Un cadre titane sur mesure se justifie sur la durée, pas sur la balance.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 05 · MODÈLES -->
+<section class="s-vert sec" id="modeles" aria-labelledby="t-mod">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 05 · Modèles de base</p>
+      <h2 class="sh-t" id="t-mod">Trois points de départ, aucune taille standard</h2>
+      <p class="sh-l">Le prix de départ comprend l’étude posturale, le cadre sur mesure, la fourche, un montage complet en transmission mécanique, des roues aluminium montées à la main et une peinture une couleur.</p>
+    </header>
+
+    <div class="bento b-mod">
+      <article class="tile t-model t-model-lead">
+        <p class="tile-k">Route</p>
+        <h3 class="model-n">Forclaz</h3>
+        <p class="model-d">Géométrie endurance-course pour les longues sorties et les cols. Pneus jusqu’à 32 mm, transmission 2 × 12.</p>
+        <dl class="price">
+          <div><dt>Acier</dt><dd>dès 4 900 €</dd></div>
+          <div><dt>Titane</dt><dd>dès 8 100 €</dd></div>
+        </dl>
+        <p class="model-w">Monté, taille 56 : 7,8 kg en acier, 7,1 kg en titane</p>
+      </article>
+      <article class="tile t-model">
+        <p class="tile-k">Gravel</p>
+        <h3 class="model-n">Semnoz</h3>
+        <p class="model-d">Pneus jusqu’à 50 mm en 700c ou 2,1 pouces en 650b. Fixations de bagagerie sur la fourche et le tube oblique, transmission 1 × ou 2 ×.</p>
+        <dl class="price">
+          <div><dt>Acier</dt><dd>dès 5 400 €</dd></div>
+          <div><dt>Titane</dt><dd>dès 8 600 €</dd></div>
+        </dl>
+        <p class="model-w">Monté, taille 54 : 9,4 kg en acier, 8,6 kg en titane</p>
+      </article>
+      <article class="tile t-model">
+        <p class="tile-k">Randonnée</p>
+        <h3 class="model-n">Aravis</h3>
+        <p class="model-d">Porte-bagages avant et arrière soudés au cadre, éclairage dynamo intégré, garde-boue, pneus 45 mm. Prévu pour 25 kg de bagages.</p>
+        <dl class="price">
+          <div><dt>Acier</dt><dd>dès 5 200 €</dd></div>
+          <div><dt>Titane</dt><dd>dès 8 400 €</dd></div>
+        </dl>
+        <p class="model-w">Monté, taille 56 : 12,1 kg en acier, 11,2 kg en titane</p>
+      </article>
+      <article class="tile t-model-note">
+        <p>Fourchette constatée en 2026 : de 4 900 € à 12 000 € selon le matériau et les options. Le devis détaillé est remis après l’étude posturale, avant toute commande.</p>
+        <a class="btn btn-y" href="#etude">Réserver l’étude posturale · <span class="n">180 €</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 06 · OPTIONS -->
+<section class="s-jaune sec" id="options" aria-labelledby="t-opt">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 06 · Options</p>
+      <h2 class="sh-t" id="t-opt">Peinture, groupe, roues : ce qui s’ajoute au prix de départ</h2>
+    </header>
+
+    <div class="bento b-opt">
+      <article class="tile t-opt-paint">
+        <p class="tile-k">Peinture</p>
+        <table class="opt">
+          <caption class="sr">Options de peinture et prix</caption>
+          <tbody>
+            <tr><th scope="row">Une couleur, laque cuite</th><td>incluse</td></tr>
+            <tr><th scope="row">Titane brossé ou microbillé</th><td>incluse</td></tr>
+            <tr><th scope="row">Deux tons, raccord net</th><td>+ 450 €</td></tr>
+            <tr><th scope="row">Masquages, dégradé, filets</th><td>+ 850 €</td></tr>
+            <tr><th scope="row">Nom peint en plus de la gravure</th><td>+ 120 €</td></tr>
+          </tbody>
+        </table>
+      </article>
+      <figure class="tile t-opt-photo ph" style="--ar: 1 / 1">
+        <div class="ph-box" role="img" aria-label="Cadre suspendu dans la cabine de peinture, masquages en place">
+          <span class="ph-f">peinture-cabine.webp</span><span class="ph-d">1200 × 1200 · 1:1</span>
+        </div>
+      </figure>
+      <article class="tile">
+        <p class="tile-k">Groupe</p>
+        <table class="opt">
+          <caption class="sr">Options de transmission et prix</caption>
+          <tbody>
+            <tr><th scope="row">Mécanique 2 × 12 ou 1 × 12</th><td>inclus</td></tr>
+            <tr><th scope="row">Électronique 2 × 12</th><td>+ 1 400 €</td></tr>
+            <tr><th scope="row">Électronique 1 × 13, gravel</th><td>+ 1 250 €</td></tr>
+          </tbody>
+        </table>
+      </article>
+      <article class="tile">
+        <p class="tile-k">Roues</p>
+        <table class="opt">
+          <caption class="sr">Options de roues et prix</caption>
+          <tbody>
+            <tr><th scope="row">Aluminium, 28 rayons, montées main</th><td>incluses</td></tr>
+            <tr><th scope="row">Carbone 40 mm, 24 rayons</th><td>+ 1 600 €</td></tr>
+            <tr><th scope="row">Moyeu dynamo, randonnée</th><td>+ 480 €</td></tr>
+          </tbody>
+        </table>
+      </article>
+      <article class="tile t-opt-cock">
+        <p class="tile-k">Cockpit</p>
+        <p class="tile-mid">Potence titane soudée à vos cotes, longueur et angle au degré près.</p>
+        <p class="opt-p">+ 390 €</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 07 · FICHE CLIENT -->
+<section class="s-noir sec" id="fiche" aria-labelledby="t-fiche">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 07 · Fiche client n° 287</p>
+      <h2 class="sh-t" id="t-fiche">Le Semnoz de Claire M.</h2>
+      <p class="sh-l">Gravel titane, livré en septembre 2025. Claire, 54 ans, 1,64 m, roule 9 000 km par an. Sur son ancien cadre de série, ses cervicales lâchaient après 120 km. Il fallait un stack haut sans allonger la potence.</p>
+    </header>
+
+    <div class="bento b-fiche">
+      <article class="tile t-count">
+        <p class="stat"><span class="count" data-to="71" data-dec="1">71,0</span><span class="u">°</span><sup>1</sup></p>
+        <p class="tile-k">Angle de direction</p>
+      </article>
+      <article class="tile t-count">
+        <p class="stat"><span class="count" data-to="74" data-dec="1">74,0</span><span class="u">°</span><sup>1</sup></p>
+        <p class="tile-k">Angle de selle</p>
+      </article>
+      <article class="tile t-count">
+        <p class="stat"><span class="count" data-to="1640">1 640</span><span class="u">g</span><sup>2</sup></p>
+        <p class="tile-k">Cadre nu, taille sur mesure</p>
+      </article>
+      <article class="tile t-count">
+        <p class="stat"><span class="count" data-to="8620">8 620</span><span class="u">g</span><sup>2</sup></p>
+        <p class="tile-k">Vélo complet, sans pédales</p>
+      </article>
+      <article class="tile t-count">
+        <p class="stat"><span class="count" data-to="46">46</span><span class="u">h</span><sup>3</sup></p>
+        <p class="tile-k">De fabrication du cadre</p>
+      </article>
+      <article class="tile t-count">
+        <p class="stat"><span class="count" data-to="23">23</span><sup>3</sup></p>
+        <p class="tile-k">Cordons de soudure</p>
+      </article>
+
+      <article class="tile t-geo">
+        <p class="tile-k">Géométrie</p>
+        <dl class="specs">
+          <div><dt>Stack</dt><dd>598 mm</dd></div>
+          <div><dt>Reach</dt><dd>372 mm</dd></div>
+          <div><dt>Longueur des bases</dt><dd>425 mm</dd></div>
+          <div><dt>Hauteur de boîtier (drop)</dt><dd>72 mm</dd></div>
+          <div><dt>Potence</dt><dd>70 mm, −6°</dd></div>
+          <div><dt>Cintre</dt><dd>38 cm, flare 12°</dd></div>
+          <div><dt>Pneus</dt><dd>700 × 45 mm</dd></div>
+          <div><dt>Prix final</dt><dd>9 870 €</dd></div>
+        </dl>
+      </article>
+      <figure class="tile t-fiche-photo ph" style="--ar: 3 / 2">
+        <div class="ph-box" role="img" aria-label="Gravure du nom sous le boîtier de pédalier, vue de près">
+          <span class="ph-f">gravure-boitier.webp</span><span class="ph-d">1500 × 1000 · 3:2</span>
+        </div>
+        <figcaption>Gravure sous le boîtier, faite avant la peinture.</figcaption>
+      </figure>
+      <ol class="t-foot">
+        <li><sup>1</sup> Cotes du plan validé, tolérance ± 0,25°.</li>
+        <li><sup>2</sup> Pesée à l’atelier, balance au gramme, avant livraison.</li>
+        <li><sup>3</sup> Relevé de l’atelier : temps passé et cordons sur ce cadre.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 08 · AVIS -->
+<section class="s-minium sec" id="avis" aria-labelledby="t-avis">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 08 · Retours de propriétaires (avis fictifs)</p>
+      <h2 class="sh-t" id="t-avis">Ce qu’ils en disent après 5 000 km</h2>
+    </header>
+
+    <div class="bento b-avis">
+      <figure class="tile t-quote t-quote-lead">
+        <blockquote><p>« Les douleurs aux cervicales ont disparu au bout de trois sorties. Sur 240 km, je finis sans y penser. »</p></blockquote>
+        <figcaption><strong>Claire M.</strong> · 54 ans · Semnoz titane · Annecy</figcaption>
+      </figure>
+      <figure class="tile t-quote">
+        <blockquote><p>« Théo a refusé de me vendre le titane que je voulais. Pour mon usage, l’acier suffisait. Il avait raison. »</p></blockquote>
+        <figcaption><strong>Nadia K.</strong> · 44 ans · Aravis acier · Lyon</figcaption>
+      </figure>
+      <figure class="tile t-quote">
+        <blockquote><p>« Six mois après la livraison, je n’ai touché à aucun réglage. La position de l’étude est restée la bonne. »</p></blockquote>
+        <figcaption><strong>Laurent B.</strong> · 58 ans · Forclaz acier · Chambéry</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 09 · ÉTUDE POSTURALE -->
+<section class="s-vert sec" id="etude" aria-labelledby="t-etude">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 09 · Étude posturale</p>
+      <h2 class="sh-t" id="t-etude">Réserver une étude posturale vélo à Annecy : 180 €, déduits de la commande</h2>
+      <p class="sh-l">2 h 30 à l’atelier d’Annecy. Venez avec vos chaussures, vos cales et votre cuissard habituels.</p>
+    </header>
+
+    <div class="bento b-etude">
+      <div class="tile t-etude-info">
+        <p class="tile-k">Ce que comprend l’étude</p>
+        <ul class="list">
+          <li>Entretien : pratique, objectifs, blessures, douleurs actuelles.</li>
+          <li>Mesures : entrejambe, buste, bras, pied, souplesse des ischio-jambiers.</li>
+          <li>Réglages sur vélo de réglage, cale par cale, jusqu’à la position stable.</li>
+          <li>Rapport de cotes remis le jour même, utilisable partout.</li>
+        </ul>
+        <figure class="ph" style="--ar: 4 / 5">
+          <div class="ph-box" role="img" aria-label="Mesure de l’angle du genou au goniomètre pendant l’étude posturale">
+            <span class="ph-f">etude-posturale.webp</span><span class="ph-d">1200 × 1500 · 4:5</span>
+          </div>
+        </figure>
+      </div>
+
+      <form class="tile t-form" id="form-etude" action="#etude" method="post" novalidate>
+        <p class="form-demo">Formulaire de démonstration : aucune donnée n’est envoyée.</p>
+        <div class="f-row">
+          <label class="f">
+            <span class="f-l">Nom</span>
+            <input name="nom" type="text" autocomplete="name" required>
+          </label>
+          <label class="f">
+            <span class="f-l">E-mail</span>
+            <input name="email" type="email" autocomplete="email" required>
+          </label>
+        </div>
+        <div class="f-row">
+          <label class="f">
+            <span class="f-l">Téléphone <em>(facultatif)</em></span>
+            <input name="tel" type="tel" autocomplete="tel">
+          </label>
+          <label class="f">
+            <span class="f-l">Taille (cm)</span>
+            <input name="taille" type="number" inputmode="numeric" min="140" max="210" placeholder="ex. 176" required>
+          </label>
+        </div>
+        <fieldset class="f f-radio">
+          <legend class="f-l">Pratique principale</legend>
+          <label><input type="radio" name="pratique" value="route" required> Route</label>
+          <label><input type="radio" name="pratique" value="gravel"> Gravel</label>
+          <label><input type="radio" name="pratique" value="randonnee"> Randonnée</label>
+        </fieldset>
+        <div class="f-row">
+          <label class="f">
+            <span class="f-l">Budget envisagé</span>
+            <select name="budget" required>
+              <option value="">Choisir</option>
+              <option>4 900 à 6 500 €</option>
+              <option>6 500 à 9 000 €</option>
+              <option>9 000 à 12 000 €</option>
+              <option>Je ne sais pas encore</option>
+            </select>
+          </label>
+          <label class="f">
+            <span class="f-l">Créneau souhaité</span>
+            <select name="creneau">
+              <option>Mardi à vendredi, matin</option>
+              <option>Mardi à vendredi, après-midi</option>
+              <option>Samedi matin</option>
+            </select>
+          </label>
+        </div>
+        <label class="f">
+          <span class="f-l">Objectif</span>
+          <textarea name="objectif" rows="4" placeholder="ex. rouler 200 km sans douleur aux cervicales, préparer un voyage de trois semaines…" required></textarea>
+        </label>
+        <button class="btn btn-y btn-full" type="submit">Demander mon créneau · <span class="n">180 €</span></button>
+        <p class="form-ok" role="status" aria-live="polite" hidden>Demande enregistrée (démonstration). Sur le vrai site, l’atelier vous rappellerait sous 48 h pour fixer la date.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 10 · FAQ -->
+<section class="s-jaune sec" id="faq" aria-labelledby="t-faq">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 10 · Questions</p>
+      <h2 class="sh-t" id="t-faq">Délais, garantie, essai, financement, transport</h2>
+    </header>
+    <div class="faq">
+      <details>
+        <summary><span>Quel délai entre l’étude posturale et la livraison ?</span><i aria-hidden="true">+</i></summary>
+        <p>Comptez 12 à 16 semaines. La file d’attente est affichée à l’atelier et mise à jour chaque lundi. Entre février et avril, ajoutez quatre semaines.</p>
+      </details>
+      <details>
+        <summary><span>Quelle garantie sur le cadre ?</span><i aria-hidden="true">+</i></summary>
+        <p>Cadre titane : garanti à vie pour le premier propriétaire. Cadre acier : 10 ans. Peinture : 2 ans. Composants : garantie du fabricant, 2 ans minimum. Un contrôle gratuit est prévu à 500 km.</p>
+      </details>
+      <details>
+        <summary><span>Peut-on essayer avant de commander ?</span><i aria-hidden="true">+</i></summary>
+        <p>Oui. Pendant l’étude, vous roulez sur un vélo de réglage qui reproduit vos cotes. Deux vélos de démonstration (route acier, gravel titane) peuvent aussi être empruntés une journée.</p>
+      </details>
+      <details>
+        <summary><span>Proposez-vous un financement ?</span><i aria-hidden="true">+</i></summary>
+        <p>Le paiement se fait en trois temps : 30 % à la validation du plan, 40 % au début de la soudure, le solde à la livraison. Un paiement en 4 fois sans frais est possible sur le solde.</p>
+      </details>
+      <details>
+        <summary><span>Livrez-vous hors d’Annecy ?</span><i aria-hidden="true">+</i></summary>
+        <p>La remise en main à l’atelier est recommandée. Sinon, le vélo voyage monté à 90 % dans une caisse en bois réutilisable : 90 € en France, 180 € dans l’Union européenne.</p>
+      </details>
+      <details>
+        <summary><span>Les 180 € de l’étude sont-ils perdus si je ne commande pas ?</span><i aria-hidden="true">+</i></summary>
+        <p>Non. Vous repartez avec votre rapport de cotes, utilisable chez n’importe quel cadreur ou vélociste. Si vous commandez dans les 12 mois, les 180 € sont déduits.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 11 · CONTACT -->
+<section class="s-noir sec sec-last" id="contact" aria-labelledby="t-contact">
+  <div class="wrap">
+    <header class="sh">
+      <p class="sh-k">Planche 11 · Contact</p>
+      <h2 class="sh-t" id="t-contact">L’atelier se visite sur rendez-vous</h2>
+    </header>
+    <div class="bento b-contact">
+      <address class="tile">
+        <p class="tile-k">Adresse (fictive)</p>
+        <p class="tile-mid">Garnier Cycles<br>27 rue de l’Industrie<br>74000 Annecy</p>
+      </address>
+      <div class="tile">
+        <p class="tile-k">Horaires</p>
+        <p class="tile-mid">Mardi à vendredi<br>9 h – 12 h · 14 h – 18 h 30<br>Samedi sur rendez-vous</p>
+      </div>
+      <div class="tile">
+        <p class="tile-k">Joindre Théo</p>
+        <p class="tile-mid"><a href="tel:+33450000000">04 50 00 00 00</a><br><a href="mailto:contact@garnier-cycles.example.com">contact@garnier-cycles.example.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot s-noir">
+  <div class="wrap foot-in">
+    <p class="foot-demo">Site de démonstration, entreprise fictive.</p>
+    <p>Garnier Cycles, Théo Garnier, les clients, les avis et les prix sont inventés. <a href="/mentions-legales.html">Mentions légales</a></p>
+  </div>
+</footer>
+
+<a class="btn btn-y fab" href="#etude" aria-hidden="true" tabindex="-1">Étude posturale · <span class="n">180 €</span></a>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
