@@ -133,7 +133,9 @@ img, svg { display: block; max-width: 100%; }
 .ph-box .ph-d { background: var(--bg); padding: 4px 8px; align-self: flex-start; font-weight: 500; color: var(--mut); }
 .tile.ph { padding: 0; border: 0; }
 .ph figcaption { margin-top: 10px; font-size: 14px; color: var(--mut); }
-.ph picture, .ph img { width: 100%; height: auto; aspect-ratio: var(--ar); object-fit: cover; }
+.ph img { display: block; width: 100%; height: auto; aspect-ratio: var(--ar); object-fit: cover; background: var(--ln); }
+.b-atelier .t-photo { display: flex; flex-direction: column; }
+.b-atelier .t-photo img { flex: 1; min-height: 0; height: 100%; }
 
 /* ------------------------------------------------------------ 00 · hero */
 .hero {
@@ -274,12 +276,13 @@ img, svg { display: block; max-width: 100%; }
 
 /* ------------------------------------------------------------ 06 · options */
 .b-opt .t-opt-paint { grid-column: span 7; }
-.b-opt .t-opt-photo { grid-column: span 5; grid-row: span 2; }
-.b-opt .t-opt-photo .ph-box { height: 100%; }
-.b-opt > .tile:nth-child(3), .b-opt > .tile:nth-child(4) { grid-column: span 7; }
-.b-opt > .tile:nth-child(4) { grid-column: span 7; }
-.b-opt .t-opt-cock { grid-column: span 5; justify-content: space-between; }
-.b-opt > .tile:nth-child(3) { grid-column: span 7; }
+.b-opt .t-opt-photo { grid-column: span 5; display: flex; }
+.b-opt .t-opt-photo img { height: 100%; }
+.b-opt > .tile:nth-child(3), .b-opt > .tile:nth-child(4) { grid-column: span 6; }
+.b-opt .t-opt-cock { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr auto; align-items: end; column-gap: 24px; }
+.b-opt .t-opt-cock .tile-k { grid-column: 1 / -1; }
+.b-opt .t-opt-cock .opt-p { margin-top: 0; }
+.b-opt .t-opt-cock .tile-mid { max-width: 46ch; }
 .opt { width: 100%; border-collapse: collapse; margin-top: 18px; }
 .opt th, .opt td { padding: 12px 0; border-top: var(--rule) solid var(--ln); text-align: left; font-weight: 500; vertical-align: baseline; }
 .opt td { text-align: right; font-weight: 700; white-space: nowrap; padding-left: 16px; }

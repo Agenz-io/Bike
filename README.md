@@ -27,5 +27,6 @@ Réglage requis une fois : Settings → Pages → Source : **GitHub Actions**.
 - `src/main.js` : animations (desktop, mobile allégé, prefers-reduced-motion)
 - `src/styles.css` : direction « Vert usine »
 - `scripts/build-bike.py` : génère `src/partials/bike.svg` et la nomenclature à partir de `src/data/parts.json`
-- `public/images/` : emplacement des photos (placeholders dans la page en attendant)
+- `public/images/` : photos optimisées (WebP, 3 largeurs pour srcset), générées par `scripts/optimize-images.py`
+- `design/images-sources/` : photos d'origine (non publiées), recadrées par le script
 - `design/` : directions, animations retenues (`animations.md`), registre `deja-fait.md`, captures
