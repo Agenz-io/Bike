@@ -98,5 +98,25 @@
       "file": "gravure-boitier-1536.webp",
       "ko": 96
     }
+  ],
+  "etude-posturale": [
+    {
+      "w": 480,
+      "h": 600,
+      "file": "etude-posturale-480.webp",
+      "ko": 21
+    },
+    {
+      "w": 640,
+      "h": 800,
+      "file": "etude-posturale-640.webp",
+      "ko": 33
+    },
+    {
+      "w": 800,
+      "h": 1000,
+      "file": "etude-posturale-800.webp",
+      "ko": 47
+    }
   ]
 }

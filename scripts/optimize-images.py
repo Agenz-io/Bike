@@ -18,7 +18,7 @@ IMAGES = {
     "tubes-acier-titane": {"crop": (0, 130, 1448, 944),   "ratio": (16, 9), "widths": [640, 960, 1440]},
     "peinture-cabine":    {"crop": None,                  "ratio": (3, 2),  "widths": [640, 1024, 1536]},
     "gravure-boitier":    {"crop": None,                  "ratio": (3, 2),  "widths": [640, 1024, 1536]},
-    "etude-posturale":    {"crop": None,                  "ratio": (4, 5),  "widths": [480, 800, 1200]},
+    "etude-posturale":    {"crop": (490, 0, 1309, 1024),  "ratio": (4, 5),  "widths": [480, 640, 800]},
 }
 
 
